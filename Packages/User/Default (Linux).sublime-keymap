@@ -106,7 +106,10 @@
   // layout and focus
   { "keys": ["ctrl+tab"], "command": "focus_side_bar" },
 
-  // new
+  { "keys": ["ctrl+shift+c"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+  { "keys": ["ctrl+shift+0"], "command": "toggle_side_bar" },
+
+  // files
   { "keys": ["ctrl+q", "ctrl+n"], "command": "new_file" },
   { "keys": ["ctrl+q", "ctrl+c"], "command": "close_file" },
   { "keys": ["ctrl+q", "ctrl+o"], "command": "prompt_open_file" },
